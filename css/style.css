@@ -23,11 +23,10 @@ h6 {
   color: #333;
 }
 .container {
-  width: 1600px;
+  width: 1170px;
   max-width: calc(100% - 20px);
   margin: 0 auto;
   padding: 0 10px;
-  overflow: hidden;
 }
 .section-padding {
   padding: 80px 0;
@@ -45,16 +44,16 @@ h6 {
   margin-bottom: 20px;
 }
 .service-bg-1 {
-  background-image: url("https://images.unsplash.com/photo-1748630312862-fbbd301ed17f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 .service-bg-2 {
-  background-image: url("https://images.unsplash.com/photo-1699132081991-06676a9d9988?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.pexels.com/photos/3183181/pexels-photo-3183181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 .service-bg-3 {
-  background-image: url("https://images.unsplash.com/photo-1699132081991-06676a9d9988?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.pexels.com/photos/7644084/pexels-photo-7644084.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
 }
 .service-bg-4 {
-  background-image: url("https://images.unsplash.com/photo-1640477433710-326460cc1c05?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.pexels.com/photos/6592554/pexels-photo-6592554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 .row {
   display: grid;
@@ -62,17 +61,34 @@ h6 {
   grid-gap: 1.5em;
 }
 .service-bg {
-  height: 225px;
+  height: 210px;
   background-color: #ddd;
   background-position: center;
   background-size: cover;
   background-size: cover;
+  object-fit: cover;
 }
 .single-service-item {
   background: #fff;
+  transition: 0.3s;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.single-service-item:hover {
+  box-shadow: 0 0 20px #39ca7357;
 }
 .service-content {
   padding: 20px;
+}
+.service-content h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.service-content p {
+  font-size: 16px;
+  color: #8b8b8b;
+  /* margin-bottom: 20px; */
 }
 .service-more-btn {
   display: inline-block;
@@ -81,7 +97,7 @@ h6 {
   color: #39ca74;
   text-decoration: none;
   margin-top: 20px;
-  font-weight: 700;
+  font-weight: 400;
   transition: 0.3s;
 }
 .service-more-btn:hover {
